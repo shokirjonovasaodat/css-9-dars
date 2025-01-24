@@ -1,0 +1,85 @@
+
+.wrap{
+    width: 1200px;
+    margin: 290px auto;  
+}
+.form-group{
+    width: 620px;
+    height:800px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(80,80,80,0.5) ;
+    padding: 1rem 1.5rem;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.p2{
+    text-align: center;
+    font-size: 15px;
+}
+label{
+    width: 35%;
+    padding: 0.5rem 1.5rem;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 18px;
+}
+input{
+    width: 45%;
+    padding: 1.05rem 1.5rem;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+select{
+    width: 30%;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 0.5rem 1.5rem;
+    box-sizing: border-box;
+}
+input[type=email]{
+    width: 100%;
+    padding: 1.05rem 1.5rem;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+input[type=password]{
+    width: 100%;
+    padding: 1.05rem 1.5rem;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+input[type=submit]{
+    display: block;
+    margin: 20px auto;
+    background-color: #18dd15;
+    color:white;
+    font-size: 20px;
+    width: 60%;
+}
+h3{
+    text-align: center;
+    font-size: 15px;
+    color: blue;
+}
+.img{
+    position: absolute;
+    top: -3px;
+    left: 750px;
+}
